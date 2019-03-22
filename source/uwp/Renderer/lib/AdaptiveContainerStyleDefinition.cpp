@@ -48,6 +48,7 @@ namespace AdaptiveNamespace
     {
         return m_highlightColors.CopyTo(colorsConfig);
     }
+	
     HRESULT AdaptiveContainerStyleDefinition::put_HighlightColors(ABI::AdaptiveNamespace::IAdaptiveColorsConfig* colorsConfig)
     {
         m_highlightColors = colorsConfig;

@@ -49,11 +49,10 @@
         "default": {
             "backgroundColor": "#FFFFFF",
             "foregroundColors": {
-				"default": {
-					"default": "#333333",
-					"subtle": "#EE333333",
-					"defaultHighlight": "FFFFFF00"
-				},
+                "default": {
+                    "default": "#333333",
+                    "subtle": "#EE333333"
+                },
                 "accent": {
                     "default": "#2E89FC",
                     "subtle": "#882E89FC"

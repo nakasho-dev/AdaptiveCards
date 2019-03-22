@@ -3496,19 +3496,6 @@ AdaptiveNamespaceStart
         interface IAdaptiveElementParser;
     };
 
-    [version(NTDDI_WIN10_RS1),
-     activatable(NTDDI_WIN10_RS1),
-#ifdef ADAPTIVE_CARDS_WINDOWS
-     contract(InternalContract, 1),
-     internal,
-     activatable(InternalContract, 1)
-#endif
-    ] runtimeclass AdaptiveRichTextBlockRenderer 
-    {
-        [default] interface IAdaptiveElementRenderer;
-        interface IAdaptiveElementParser;
-    };
-
     [
         version(NTDDI_WIN10_RS1),
         activatable(NTDDI_WIN10_RS1),

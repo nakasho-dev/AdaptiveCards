@@ -93,6 +93,28 @@
 					"default": "#FFE69500",
 					"subtle": "#DDE69500"
 				}
+			},
+			"highlightColors": {
+				"default": {
+					"default": "#FFE69500",
+					"subtle": "#FFFFDEAD"
+				},
+				"accent": {
+					"default": "#FFE69500",
+					"subtle": "#FFFFDEAD"
+				},
+				"attention": {
+					"default": "#FFE69500",
+					"subtle": "#FFFFDEAD"
+				},
+				"good": {
+					"default": "#FFE69500",
+					"subtle": "#FFFFDEAD"
+				},
+				"warning": {
+					"default": "#FFE69500",
+					"subtle": "#FFFFDEAD"
+				}
 			}
 		},
 		"accent": {
