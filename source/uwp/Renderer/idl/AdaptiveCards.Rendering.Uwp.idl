@@ -1399,6 +1399,9 @@ AdaptiveNamespaceStart
 
         [propget] HRESULT BackgroundImage([out, retval] AdaptiveBackgroundImage * *value);
         [propput] HRESULT BackgroundImage([in] AdaptiveBackgroundImage * value);
+
+        [propget] HRESULT Bleed([out, retval] boolean * value);
+        [propput] HRESULT Bleed([in] boolean value);
     };
 
     [
@@ -1447,6 +1450,9 @@ AdaptiveNamespaceStart
 
         [propget] HRESULT BackgroundImage([out, retval] AdaptiveBackgroundImage * *value);
         [propput] HRESULT BackgroundImage([in] AdaptiveBackgroundImage * value);
+
+        [propget] HRESULT Bleed([out, retval] boolean * value);
+        [propput] HRESULT Bleed([in] boolean value);
     };
 
     [
@@ -1484,6 +1490,9 @@ AdaptiveNamespaceStart
 
         [propget] HRESULT Style([out, retval] ContainerStyle* value);
         [propput] HRESULT Style([in] ContainerStyle value);
+
+        [propget] HRESULT Bleed([out, retval] boolean * value);
+        [propput] HRESULT Bleed([in] boolean value);
     };
 
     [
